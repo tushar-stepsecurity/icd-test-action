@@ -1,7 +1,7 @@
-name: 'ICD Test Action (main-2 head of default branch)'
+name: 'ICD Test Action (release-1 contained in releases/v1)'
 description: 'Fixture action for imposter commit detection regression tests'
 runs:
   using: 'composite'
   steps:
     - shell: bash
-      run: echo "icd-test-action marker=main-2 head of default branch"
+      run: echo "icd-test-action marker=release-1 contained in releases/v1"
