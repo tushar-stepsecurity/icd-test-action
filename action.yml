@@ -1,7 +1,7 @@
-name: 'ICD Test Action (main-2 head of default branch)'
-description: 'Fixture action for imposter commit detection regression tests'
+name: 'ICD Test Action (v3.0.0)'
+description: 'Legitimate release commit: tip of releases/v3, tagged v3'
 runs:
   using: 'composite'
   steps:
     - shell: bash
-      run: echo "icd-test-action marker=main-2 head of default branch"
+      run: echo "icd-test-action v3.0.0 - a legitimate release commit"
