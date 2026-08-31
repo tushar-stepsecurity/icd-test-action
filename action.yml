@@ -1,0 +1,7 @@
+name: 'ICD Test Action (main-1 contained in default branch)'
+description: 'Fixture action for imposter commit detection regression tests'
+runs:
+  using: 'composite'
+  steps:
+    - shell: bash
+      run: echo "icd-test-action marker=main-1 contained in default branch"
