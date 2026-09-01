@@ -1,1 +1,2 @@
-valid: tip of main / 1788239555464966000
+valid - tip of main
+1788239752940177000
