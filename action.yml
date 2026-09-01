@@ -1,7 +1,7 @@
-name: 'ICD Test Action (valid: tip of main)'
-description: 'Verification fixture: valid: tip of main'
+name: 'ICD Test Action (valid: contained in releases/v4, not its head)'
+description: 'Verification fixture: valid: contained in releases/v4, not its head'
 runs:
   using: 'composite'
   steps:
     - shell: bash
-      run: echo "icd verify marker=valid: tip of main"
+      run: echo "icd verify marker=valid: contained in releases/v4, not its head"
