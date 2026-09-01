@@ -1,7 +1,7 @@
-name: 'ICD Test Action (main-2 head of default branch)'
-description: 'Fixture action for imposter commit detection regression tests'
+name: 'ICD Test Action (valid: tip of main)'
+description: 'Verification fixture: valid: tip of main'
 runs:
   using: 'composite'
   steps:
     - shell: bash
-      run: echo "icd-test-action marker=main-2 head of default branch"
+      run: echo "icd verify marker=valid: tip of main"
