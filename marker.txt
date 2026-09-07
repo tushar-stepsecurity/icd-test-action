@@ -1,2 +1,2 @@
-valid - tip of main
-1788239752940177000
+C - tag-only commit behind a nested annotated tag
+1788751986855293000
