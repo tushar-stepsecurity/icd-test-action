@@ -1,2 +1,2 @@
-valid - tip of main
-1788239752940177000
+B - tag-only commit, tag-pinned
+1788751986770875000
