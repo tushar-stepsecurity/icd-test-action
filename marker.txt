@@ -1,2 +1,2 @@
-E - contained in releases-v6, not its tip, untagged
-1788751987034263000
+E tip of releases-v6
+1788751987097208000

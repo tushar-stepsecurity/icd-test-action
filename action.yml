@@ -1,7 +1,7 @@
 name: 'ICD Test Action'
-description: 'Fixture - E - contained in releases-v6, not its tip, untagged'
+description: 'Fixture - E tip of releases-v6'
 runs:
   using: 'composite'
   steps:
     - shell: bash
-      run: echo "icd fixture E - contained in releases-v6, not its tip, untagged"
+      run: echo "icd fixture E tip of releases-v6"
