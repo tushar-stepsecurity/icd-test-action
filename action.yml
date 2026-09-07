@@ -1,7 +1,7 @@
 name: 'ICD Test Action'
-description: 'Verification fixture - valid - tip of main'
+description: 'Fixture - A - tag-only commit, sha-pinned'
 runs:
   using: 'composite'
   steps:
     - shell: bash
-      run: echo "icd verify marker valid - tip of main"
+      run: echo "icd fixture A - tag-only commit, sha-pinned"
