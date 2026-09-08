@@ -1,2 +1,2 @@
-valid - tip of main
-1788239752940177000
+A2 - tag-only sha-pinned
+1788841099010071000
