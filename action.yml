@@ -1,7 +1,7 @@
 name: 'ICD Test Action'
-description: 'Fixture - E2 - in releases-v7 not tip'
+description: 'Fixture - F2 - tip of releases-v7'
 runs:
   using: 'composite'
   steps:
     - shell: bash
-      run: echo "icd fixture E2 - in releases-v7 not tip"
+      run: echo "icd fixture F2 - tip of releases-v7"
