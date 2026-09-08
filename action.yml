@@ -1,7 +1,7 @@
 name: 'ICD Test Action'
-description: 'Verification fixture - valid - tip of main'
+description: 'Fixture - C2 - tag-only nested annotated tag'
 runs:
   using: 'composite'
   steps:
     - shell: bash
-      run: echo "icd verify marker valid - tip of main"
+      run: echo "icd fixture C2 - tag-only nested annotated tag"
