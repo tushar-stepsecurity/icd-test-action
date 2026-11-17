@@ -1,1 +1,1 @@
-marker printed by the action (r3)
+release 1.2.0
