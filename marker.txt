@@ -1,1 +1,1 @@
-marker printed by the action
+release 1.1.0
