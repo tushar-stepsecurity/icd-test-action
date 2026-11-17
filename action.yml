@@ -4,4 +4,4 @@ runs:
   using: 'composite'
   steps:
     - shell: bash
-      run: echo "icd verify marker: action ran"
+      run: echo "icd verify marker - action ran"
